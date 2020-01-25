@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Perl
 %define		pnam	Unsafe-Signals
 Summary:	Perl::Unsafe::Signals - Allow unsafe handling of signals in selected blocks
